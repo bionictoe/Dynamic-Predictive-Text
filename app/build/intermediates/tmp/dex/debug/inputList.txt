@@ -1,0 +1,2 @@
+/Users/Darragh/AndroidStudioProjects/Software Project/Nearly Final/app/build/intermediates/classes/debug
+/Users/Darragh/AndroidStudioProjects/Software Project/Nearly Final/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-61e1e4716b78da266539190ca83ba972a77494a6.jar

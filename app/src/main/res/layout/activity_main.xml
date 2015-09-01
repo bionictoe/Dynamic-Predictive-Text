@@ -1,0 +1,78 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/matched"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Type Your Text Here"
+        tools:context=".MainActivity"
+        android:layout_below="@+id/dynamicSuggestion1"
+        android:textIsSelectable = "true"
+        />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/myautocomplete"
+        android:layout_width="280dip"
+        android:layout_height="100dip"
+        android:paddingTop="50dip"
+        android:completionThreshold="1"
+        android:layout_below="@+id/dynamicSuggestion1"
+        android:layout_marginTop="0dip" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_toRightOf="@id/myautocomplete"
+        android:layout_marginTop="45dip"
+        android:text="Send"
+        android:layout_weight="0.5"
+        android:layout_below="@+id/dynamicSuggestion1"
+
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/dynamicSuggestion1"
+        android:layout_width="195dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:text=""
+
+        android:singleLine="true"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:background="#000"
+        />
+
+    <Button
+        android:id="@+id/dynamicSuggestion2"
+        android:layout_toRightOf="@id/dynamicSuggestion1"
+        android:layout_width="195dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:text=""
+
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:background="#000"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/myautocomplete">
+    </ListView>
+
+
+
+
+</RelativeLayout>

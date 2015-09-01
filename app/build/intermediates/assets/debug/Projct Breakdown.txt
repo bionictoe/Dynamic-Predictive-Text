@@ -1,0 +1,25 @@
+started with a basic AutoCompleteTextView project
+
+implemented alphabetical suggestions via a dropdown list
+
+the suggestions would originally only work for the first word typed
+
+found a custom tokens that split up the text and allowed alphabetical suggestions
+for subsequent words
+
+then i worked on providing suggestions based on the users input, with suggestions sorted via frequency of use e.g.. the 3 most popular words containing text the user is typing is returned
+
+then added a list to hold user text history. when user types, and hits send the current text is added to a list on screen, so user can see previous entries
+
+this text is also added to a text file on the SDcard. this text file is used to generate suggestions for word completion.
+
+added text to display number of matched entries in the dictionary, based on current user text
+
+added toms code to the app, where, when typing, auto completion words will be suggested, then when space is entered toms sentence completion words are suggested
+
+the word completion and sentence completion words appear on the same buttons.
+
+then implemented persistence. the current text file used for word completion is saved to disc whenever the send button is pressed
+
+this file is loaded from SD card when the app loads first
+

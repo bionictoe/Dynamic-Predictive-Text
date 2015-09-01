@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Darragh/AndroidStudioProjects/Software%20Project/Nearly%20Final/app/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light"/>
+</resources>
